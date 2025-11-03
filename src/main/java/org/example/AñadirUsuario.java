@@ -20,7 +20,9 @@ public class AñadirUsuario extends JDialog {
         setModal(true);
         pack();
         setLocationRelativeTo(parent);
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setTitle("Usuario");
+        setSize(800, 500);
 
         label1.setFont(new java.awt.Font("SansSerif", java.awt.Font.BOLD, 18));
         label1.setHorizontalAlignment(SwingConstants.CENTER);
