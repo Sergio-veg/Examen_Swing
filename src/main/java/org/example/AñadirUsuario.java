@@ -20,7 +20,7 @@ public class AñadirUsuario extends JDialog {
         setModal(true);
         pack();
         setLocationRelativeTo(parent);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setTitle("Usuario");
         setSize(800, 500);
 
